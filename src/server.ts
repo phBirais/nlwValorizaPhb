@@ -1,13 +1,17 @@
 import "reflect-metadata";
 import express, { Request, Response, NextFunction } from "express";
 import "express-async-errors";
-
+import cors from "cors"
 import { router } from "./routes";
 
 import "./database";
 
 //@types/express
 const app = express();
+/*app.use(cors({
+  origin: "website especifico"
+}));*/
+app.use(cors());
 
 app.use(express.json());//usar json para receber
 
