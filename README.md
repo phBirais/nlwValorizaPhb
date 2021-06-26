@@ -20,3 +20,7 @@ Para desenvolver este projeto, diversas tecnologias e libs foram utiilizadas. Ab
  - Autenticação de usuários
  - Verificação de permissão administrador 
 
+## Como testar a aplicação 📱
+Para testar o funcionamento da aplicação é necessário utilizar o Insomnia para as Querys e Beekeper Studio para
+ - [ Insomnia ](https://insomnia.rest/download "Insomnia"): Ferramenta de projeto e cliente de API colaborativa
+ - [ Beekeeper ](https://www.beekeeperstudio.io/ "Beekeeper"): Editor de código aberto SQL e gerenciador de banco de dados
